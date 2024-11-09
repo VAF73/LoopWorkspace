@@ -282,6 +282,9 @@ jobs:
 
           #Loop: VAF73-patch-1: Endring av standard karbotider
           curl https://github.com/VAF73/Loop/commit/a7a35e3b8a580428bc1a59fb1b74260281b72196.patch | git apply -v --directory=Loop -v --whitespace=fix
+
+          #Loop: VAF73-patch-1: Endring av BS grenser for maks GBPA
+          curl https://github.com/VAF73/Loop/commit/e742614633103cb2e8b1da68f69b73fd90a9804b.patch | git apply -v --directory=Loop -v --whitespace=fix
           
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
