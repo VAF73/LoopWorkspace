@@ -252,7 +252,7 @@ jobs:
           now_line \
           lnl_icon \
           meal_days \
-          2002 \
+          profiles \
           basal_lock \
           negative_insulin
           
